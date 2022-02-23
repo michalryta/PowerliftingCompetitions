@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PowerliftingCompetitions">
         <activity
+            android:name=".Ranking_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Results_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Participants_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
