@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Powerlifting Competition App</string>
+    <string name="app_name">Powerlifting Competition</string>
+
+    <string-array name="male_weight_categories">
+        <item>-59kg</item>
+        <item>-66kg</item>
+        <item>-74kg</item>
+        <item>-83kg</item>
+        <item>-93kg</item>
+        <item>-105kg</item>
+        <item>-120kg</item>
+         <item>+120kg</item>
+    </string-array>
+
+    <string-array name="female_weight_categories">
+        <item>-57kg</item>
+        <item>-63kg</item>
+        <item>-72kg</item>
+        <item>-84kg</item>
+        <item>+84kg</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 </resources>

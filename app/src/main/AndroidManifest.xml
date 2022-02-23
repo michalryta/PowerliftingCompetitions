@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PowerliftingCompetitions">
-        <activity
-            android:name=".Ranking_Activity"
+
+        <activity android:name=".Ranking_Activity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
-        <activity
-            android:name=".Results_Activity"
+
+        <activity android:name=".Results_Activity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
-        <activity
-            android:name=".Participants_Activity"
+
+        <activity android:name=".Participants_Activity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

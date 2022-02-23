@@ -8,45 +8,45 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="378dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="430dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="302dp"
+        android:layout_height="208dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRanking"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/powerlifting" />
 
     <Button
-        android:id="@+id/buttonParticipants"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="397dp"
-        android:text="Uczestnicy"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
         android:id="@+id/buttonResults"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="470dp"
-        android:text="Rezultaty"
+        android:text="RESULTS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonParticipants" />
 
     <Button
         android:id="@+id/buttonRanking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="155dp"
-        android:layout_marginTop="542dp"
-        android:text="Ranking"
+        android:text="RANKING"
+        app:layout_constraintBottom_toTopOf="@+id/buttonParticipants"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/buttonParticipants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARTICIPANTS"
+        app:layout_constraintBottom_toTopOf="@+id/buttonResults"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRanking" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
