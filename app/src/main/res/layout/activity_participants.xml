@@ -6,12 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".Participants_Activity">
 
+    <EditText
+        android:id="@+id/TextEditName"
+        android:layout_width="213dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextEditSurname"
+        android:layout_width="213dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="116dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="295dp"
-        tools:ignore="MissingConstraints" />
+        android:id="@+id/spinnerSex"
+        android:layout_width="127dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextEditWeight"
+        android:layout_width="127dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginBottom="559dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="359dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="191dp"
+        android:text="Add participant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="359dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="260dp"
+        android:text="Edit participant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
