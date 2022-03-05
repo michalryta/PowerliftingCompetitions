@@ -12,6 +12,7 @@
          <item>+120kg</item>
     </string-array>
 
+    <string name="url">localhost:8080</string>
     <string-array name="female_weight_categories">
         <item>-57kg</item>
         <item>-63kg</item>
